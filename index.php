@@ -1,5 +1,4 @@
-<?php get_header(); ?>
-
+<?php wp_footer(); ?><?php get_header(); ?>
     <main>
 		<?php if(get_theme_mod('hide_slider') == ''){ ?>
         <section class="header">
@@ -297,5 +296,4 @@
 			?>
 			</div>
         </section>
-		<?php the_content(); ?>
 <?php get_footer(); ?>

@@ -1,5 +1,4 @@
-<?php get_header(); ?>
-
+<?php wp_footer(); ?><?php get_header(); ?>
     <main>
         <section class="header-section">
             <div class="left">
@@ -98,7 +97,6 @@
 			?>
 			</div>
         </section>
-		<?php the_content(); ?>
 	</main>
 <?php
 get_footer();

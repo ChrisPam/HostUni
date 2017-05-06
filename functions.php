@@ -395,11 +395,10 @@ function color_customizer( $wp_customize ) {
 
 if ( $wp_customize->is_preview() ) {
     add_action( 'wp_footer', 'example_customize_preview', 21);
-}	
+}
 }
 
 add_action( 'customize_register', 'color_customizer' );
-
 
 
 
@@ -437,19 +436,17 @@ function example_customize_preview() {
 					$('header .menu h1 a:hover').css('color', to );
 					$('header .menu nav ul li a:hover').css('color', to );
                 });
-            });
-			
-			wp.customize('second_color',function( value ) {
+				
+				wp.customize('second_color',function( value ) {
                 value.bind(function(to) {
 					$('.people-about-us article:hover span').css('color', to );
 					$('.domain-check').css('background-color', to );
                 });
-            });			
+            });
         } )( jQuery )
     </script>
     <?php
 }  // End function example_customize_preview()
-
 
 
 
@@ -829,4 +826,6 @@ function about_board_customizer( $wp_customize ){
 }
 
 add_action( 'customize_register', 'about_board_customizer' );
+
+add_theme_support( 'post-thumbnails' ); 
 ?>
