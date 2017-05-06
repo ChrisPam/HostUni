@@ -1,0 +1,57 @@
+.header-section {
+    border: 1px solid black;
+    background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url("../images/background-header-all-pages.jpg") no-repeat;
+    padding: 79px 80px;
+}
+
+.header-section div {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.header-section div h2 {
+    color: #26a65b;
+    font-size: 2.2em;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+div.left {
+    display: inline-block;
+}
+
+div.right {
+    float: right;
+    text-align: right;
+    display: inline-block;
+}
+
+.header-section div h3 {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .header-section {
+        padding: 79px 30px;
+    }
+    div.left {
+        display: block;
+        text-align: center;
+    }
+    .header-section div h3 {
+        display: block;
+    }
+    div.right{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}

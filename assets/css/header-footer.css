@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    margin: 0 auto;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin: auto;
+}
+
+header .menu nav ul li.current-menu-item a {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+h2 {
+    line-height: 48px;
+}
+
+/* ********************************
+   //////////////LOGIN/////////////
+   ******************************** */
+.login {
+    text-align: right;
+    border-bottom: 1px solid #D4D2D2;
+    font-size: 0.857em;
+}
+
+.login .user {
+    margin-right: 25px;
+}
+
+.login .user li {
+    margin-right: 10px;
+}
+
+.login .user li a {
+    color: #0f0f0f;
+}
+
+.login .user li a:hover {
+    color: #26a65b;
+}
+
+.social-media {
+    margin-right: 50px;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.social-media li i {
+    background-color: #26a65b;
+    border-radius: 50%;
+    color: #FFF;
+    transition: background-color 0.5s ease
+}
+
+.social-media li:hover i {
+    background-color: #000;
+}
+
+.login ul {
+    display: inline-block;
+}
+
+.login ul li {
+    display: inline-block;
+}
+
+.login ul li a {
+    text-decoration: none;
+}
+
+/* ********************************
+   ////////////////MENU////////////
+   ******************************** */
+header .menu {
+    margin: 0 45px;
+}
+
+header .menu h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 28px;
+}
+
+header .menu h1 a {
+    color: #000;
+    text-decoration: none;
+	line-height: 35px;
+}
+
+header .menu h1 a:hover {
+    color: #26a65b;
+    text-decoration: none;
+}
+
+header .menu .small-screen-menu {
+    display: none;
+}
+
+header .menu nav {
+    text-align: right;
+    float: right;
+}
+
+header .menu nav ul {
+    text-align: right;
+    line-height: 45px;	
+}
+
+header .menu nav ul li {
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 0 10px;
+}
+
+header .menu nav ul li a {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+header .menu nav ul li.current-menu-item a {
+    color: #26a65b;
+}
+
+header .menu nav ul li a:hover {
+    color: #26A65B;
+}
+
+header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+@media screen and (max-width: 780px) {
+    header .menu ul {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    header .menu nav {
+        float: none;
+        text-align: left;
+    }
+
+    header .menu ul li {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    header .menu ul li a {
+        display: block;
+        text-align: center;
+    }
+
+    header .menu h1 {
+        text-align: center;
+        float: left;
+    }
+
+    header .menu h1 a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    header .menu .small-screen-menu {
+        color: #000;
+        display: inline-block;
+        float: right;
+        margin: 18px 0;
+    }
+
+    header .menu nav:hover ul {
+        display: block;
+    }
+
+    header .menu ul {
+        display: none;
+        margin: 0;
+    }
+
+    .login {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .login .social-media {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+}
+
+/* ********************************
+   ////////////////FOOTER//////////
+   ******************************** */
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px 100px;
+    background-color: #1A1919;
+    color: #CCCCCC;
+    line-height: 30px;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.footer-menu article {
+    margin: 0 20px;
+}
+
+.footer-menu article:hover h2 {
+    color: #26A65B;
+}
+
+.footer-menu article h2 {
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.footer-menu article:first-of-type {
+    flex-grow: 2;
+    flex-basis: 10%;
+}
+
+.footer-menu article:nth-of-type(2) {
+    flex-grow: 2;
+    flex-basis: 10%;
+}
+
+.footer-menu article:nth-of-type(3) {
+    flex-grow: 1;
+    flex-basis: 5%;
+}
+
+.footer-menu article:nth-of-type(4) {
+    flex-grow: 2;
+    flex-basis: 10%;
+}
+
+.contact-us i {
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+.footer-menu ul li {
+    list-style-type: none;
+}
+
+.footer-menu ul li a {
+    color: #CCCCCC;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.footer-menu ul li a:hover {
+    color: #26A65B;
+}
+
+.footer-menu ul {
+    padding: 0;
+}
+
+.links {
+    text-transform: capitalize;
+}
+
+.newsletter input {
+    background: none;
+    border: 1px solid #26A65B;
+    border-radius: 5px 0 0 5px;
+    color: #FFFFFF;
+    padding: 15px 10px;
+    margin: 0;
+    width: calc(100% - 40%);
+}
+
+.newsletter input::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+
+.newsletter button {
+    background-color: #26A65B;
+    line-height: 45px;
+    width: 40px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1020px) {
+    .footer-menu {
+        flex-direction: column;
+        padding: 30px;
+    }
+    .footer-menu article {
+        min-height: 200px;
+    }
+}
+
+.created-by {
+    background: #1A1919;
+    width: 100%;
+}
+
+.created-by::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.created-by p {
+    float: left;
+    padding: 0 30px;
+    color: #FFFFFF;
+    margin: 20px 30px;
+}
+
+.created-by ul {
+    float: right;
+    padding: 0 30px;
+}
+
+.created-by ul li {
+    display: inline-block;
+}
+
+@media screen and (max-width: 780px) {
+    .created-by {
+        text-align: center;
+        float: none;
+        display: block;
+    }
+
+    .created-by p, .created-by ul {
+        float: none;
+        padding: 20px 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .newsletter button {
+        background-color: #26A65B;
+        width: 45px;
+        height: 47px;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        margin: 0;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .newsletter input {
+        padding: 15px 10px;
+        margin: 0;
+        width: calc(100% - 40%);
+    }
+}

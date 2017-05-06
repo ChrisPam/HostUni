@@ -1,0 +1,168 @@
+/* 	********************************
+	//////////GOOGLE - MAP//////////
+	********************************  */
+
+.google-map #googleMap {
+    width: 100%;
+    height: 200px;
+}
+
+/* 	********************************
+	/////////CONTACT - INFO/////////
+	********************************  */
+
+.contact-info {
+    padding: 20px 130px 0;
+}
+
+.contact-info h1 {
+    text-transform: capitalize;
+    font-size: 2.2em;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+}
+
+@media screen and (max-width: 920px) {
+    .contact-info {
+        padding: 20px 30px 0;
+    }
+}
+
+/* 	********************************
+	/////////CONTACT - FORM/////////
+	********************************  */
+
+.contact-form {
+    padding: 20px 130px;
+}
+
+.contact-form div {
+    display: inline-block;
+    max-width: 700px;
+    vertical-align: middle;
+}
+
+.contact-form .form {
+    margin-left: 10px;
+}
+
+.contact-form h2 {
+    color: #26a65b;
+    margin: 0;
+}
+
+.contact-form p {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.contact-form ul {
+    display: inline-block;
+}
+
+.contact-form ul li {
+    list-style-type: none;
+}
+
+.contact-form .form input {
+    width: 43.3%;
+    padding: 10px;
+    margin: 10px;
+    background: #DFDCDC;
+    outline: none;
+    border: none;
+}
+
+.contact-form .form select {
+    width: 46.3%;
+    padding: 10px;
+    margin: 10px 15px 10px 10px;
+    background: #DFDCDC;
+    border: none;
+    color: #B5A6B0;
+}
+
+.dark {
+    color: #000000;
+}
+
+.contact-form .form textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 93%;
+    background: #DFDCDC;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.contact-form .form button {
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #26a65b;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.contact-form .form button:hover {
+    background: #26a65b;
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 920px) {
+    .contact-info h1, .contact-info p {
+        text-align: center;
+    }
+
+    .contact-form {
+        padding: 20px 30px 0;
+    }
+
+    .contact-form .form {
+        margin: 0 auto;
+    }
+
+    .contact-form .form input {
+        width: calc(100% - 20px);
+        margin: 5px 0;
+    }
+
+    .contact-form .form select {
+        width: 100%;
+        margin: 5px 0;
+        box-sizing: border-box;
+    }
+
+    .contact-form .form textarea {
+        margin: 5px 0;
+        width: calc(100% - 20px);
+    }
+
+    .contact-form .form button {
+        margin: 15px auto;
+        display: block;
+    }
+
+    .contact-form p {
+        font-size: 1.4em;
+    }
+
+    .contact-form ul {
+        padding-left: 10px;
+    }
+}

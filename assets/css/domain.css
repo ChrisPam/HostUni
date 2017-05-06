@@ -1,0 +1,244 @@
+/* 	********************************
+	////////////HOSTING/////////////
+	********************************  */
+.hosting {
+    background: url('../images/background-start-now.jpg') no-repeat;
+    background-size: cover;
+    padding: 15px 30px;
+    margin: 0 auto;
+}
+
+.hosting-div {
+    display: inline-block;
+}
+
+#left-div {
+    width: 30%;
+}
+
+#right-div {
+    text-align: right;
+    vertical-align: top;
+    padding-top: 30px;
+    float: right;
+    width: 60%;
+}
+
+.hosting .hosting-div button {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 13px 45px;
+    border-radius: 25px;
+    background: #3E4951;
+    color: #FFFFFF;
+    border: none;
+    margin: 5px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.hosting .hosting-div button:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.hosting .hosting-div h2 {
+    margin: 20px 30px 0;
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+.hosting .hosting-div p {
+    color: #425851;
+    margin: 0 30px 20px;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 800px) {
+    .hosting-div {
+        display: block;
+    }
+    #right-div {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    #left-div {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* 	********************************
+	///////HOSTING - TABLE//////////
+	********************************  */
+.hosting-table table, thead, tbody, tr, td, th {
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+
+.hosting-table table {
+    margin: 40px auto;
+    padding: 10px;
+}
+
+.hosting-table thead tr th {
+    text-transform: uppercase;
+    background: #3E4951;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    padding: 20px 35px;
+}
+
+.hosting-table th, td {
+    padding: 5px 40px;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.hosting-table tr td:last-of-type {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 0;
+}
+
+.hosting-table tbody {
+    background: #F2F2F2;
+    font-size: 0.9em;
+}
+
+.hosting-table tr:nth-child(even) td, .hosting-table tr:nth-child(even) th {
+    background: #FFFFFF;
+}
+
+.hosting-table tbody tr td button {
+    padding: 10px 20px;
+    text-transform: capitalize;
+    background: #26A65B;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border: none;
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+
+.hosting-table tbody tr td button:hover {
+    background: #FFFFFF;
+    color: #26A65B;
+}
+
+@media screen and (max-width: 990px) {
+    .hosting-table thead tr th {
+        font-size: 1em;
+    }
+
+    .hosting-table tbody {
+        font-size: 0.6em;
+    }
+
+    .hosting-table th, td {
+        padding: 0 15px;
+    }
+
+    .hosting-table tbody tr td button {
+        padding: 10px 20px;
+        font-size: 0.5em;
+        border-radius: 7px;
+    }
+
+    table {
+        border: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    table tr {
+        margin: 0 0 10px 0;
+        display: block;
+        border-bottom: 1px solid #ddd;
+    }
+
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+    }
+
+    table td {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        border-bottom: 1px solid #CCCCCC;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+    }
+
+    .hosting-table tr td:last-of-type {
+        font-size: 3em;
+    }
+
+    @media screen and (max-width: 500px) {
+        .hosting-table thead tr th {
+            font-size: 0.6em;
+        }
+
+        .hosting-table tbody {
+            font-size: 0.5em;
+        }
+
+        .hosting-table th, td {
+            padding: 0 10px;
+        }
+
+        .hosting-table tbody tr td button {
+            padding: 10px 20px;
+            font-size: 0.5em;
+            border-radius: 5px;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+        .hosting-table thead tr th {
+            font-size: 0.6em;
+        }
+
+        .hosting-table tbody {
+            font-size: 0.4em;
+        }
+
+        .hosting-table th, td {
+            padding: 0 5px;
+        }
+
+        .hosting-table tbody tr td button {
+            padding: 10px 20px;
+            font-size: 0.6em;
+            border-radius: 4px;
+        }
+    }
+}
+
+.custom-check {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.custom-check .info p {
+    font-size: 2em;
+    line-height: 30px;
+    font-weight: bold;
+}
