@@ -1,5 +1,3 @@
-<?php wp_footer(); ?>
-
 <?php get_header(); ?>
 
 
@@ -15,7 +13,7 @@
 
             <div class="right">
 
-                <h3>Home &#160; / &#160; <a class="blog-url" href="<?php the_permalink(); ?>/blog/">Blog</a> &#160;</h3>
+                <h3><a class="blog-url" href="/">Home</a> &#160; / &#160; <a class="blog-url" href="<?php the_permalink(); ?>/Blog/">Blog</a> &#160; / &#160; <?php the_title(); ?>&#160;</h3>
 
             </div>
 

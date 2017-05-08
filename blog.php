@@ -1,8 +1,5 @@
 <?php /* Template Name: Blog Page */ ?>
 
-
-<?php wp_footer(); ?>
-
 <?php get_header(); ?>
 
 
@@ -18,7 +15,7 @@
 
             <div class="right">
 
-                <h3>Home &#160; / &#160; <?php the_title(); ?></h3>
+                <h3><a class="blog-url" href="/">Home</a> &#160; / &#160; <?php the_title(); ?></h3>
 
             </div>
 

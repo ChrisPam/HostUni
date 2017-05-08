@@ -313,7 +313,7 @@ Text Domain: hostwind
     border-radius: 50px;
     display: inline-block;
     float: left;
-    height: 50px;
+	height: 50px;
     line-height: 65px;
     text-align: center;
     width: 50px;
@@ -1020,9 +1020,11 @@ Text Domain: hostwind
 	font-family: Poppins, sans-serif;
 }
 
-
+.wpcf7 {
+    text-align: center;	
+}
 .wpcf7 input, .wpcf7 textarea {
-	width: 100%;
+	width: 90%;
 	padding: 0 25px;
 	height: 50px;
 	color: #666;
@@ -1041,6 +1043,7 @@ Text Domain: hostwind
 	color: #000;
 	transition: all 0.4s ease;
 	cursor: pointer;
+	padding: 0 10px;
 }
 
 .wpcf7 textarea{
@@ -1061,7 +1064,7 @@ Text Domain: hostwind
 
 @media screen and (max-width: 700px){
 	.contact{
-		width: 85%;
+		width: 80%;
 		margin: 30px auto;
 	}
 }

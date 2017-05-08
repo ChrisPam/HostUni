@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/assets/css/header-footer.css">
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/assets/css/main-section-header.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/style.css">
     <script src="<?php echo get_bloginfo('template_directory'); ?>/assets/js/jquery.min.js"></script>
     <script src="<?php echo get_bloginfo('template_directory'); ?>/assets/dist/owl.carousel.min.js"></script>
-    <script src="<?php echo get_bloginfo('template_directory'); ?>/assets/js/js-function.js"></script>
+    <script src="<?php echo get_bloginfo('template_directory'); ?>/assets/js/js-function.js"></script>	
+    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/style.css">
 	
 	<style>
 		.header,
@@ -68,12 +68,6 @@
 		.start-now, .subscribe-news {
 			background-color: <?php echo get_theme_mod('main_color');  ?>;
 		}
-
-		<?php if(is_user_logged_in()){ ?>
-		.wrapper {
-			margin-top: 32px;
-		}
-		<?php } ?>
 	</style>
 </head>
 <body>

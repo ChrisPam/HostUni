@@ -1,4 +1,4 @@
-<?php wp_footer(); ?><?php get_header(); ?>
+<?php get_header(); ?>
     <main>
 		<?php if(get_theme_mod('hide_slider') == ''){ ?>
         <section class="header">
